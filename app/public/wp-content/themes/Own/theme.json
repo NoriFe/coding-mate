@@ -26,7 +26,17 @@
         "background": true,
         "text": true,
         "link": true,
-        "custom": true
+        "custom": true,
+        "duotone": [
+            { "slug": "o-pink-sunset", "colors": ["#11245e", "#dc4379"], "name": "Own Pink Sunset"}
+        ],
+        "defaultGradients": false,
+        "gradients": [
+            { "slug": "o-summer-dog",
+              "gradient": "linear-gradient(#a8ff78, #78ffd6)",
+              "name": "Own Summer Dog"
+            }
+        ]
        },
        "blocks": {
         "core/site-title":{
@@ -36,9 +46,17 @@
                     { "slug": "o-primary", "color": "#ef4444", "name": "Own Primary" }
                 ],
                 "link": true,
-                "custom": false
+                "custom": false,
+                "gradients": [],
+                "customGradient": false
         
                }
+        },
+        "core/cover": {
+            "color": {
+                "duotone": [],
+                "customDuotone": false
+            }
         }
        } 
             
