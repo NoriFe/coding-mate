@@ -3,7 +3,9 @@
 function o_enqueue() {
    wp_register_style(
     'o_font_rubik_and_pacifico',
-    'https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300;400;500;700&display=swap'
+    'https://fonts.googleapis.com/css2?family=Pacifico&family=Rubik:wght@300;400;500;700&display=swap',
+    [],
+    null
    );
    wp_register_style(
     'o_bootstrap_icons',
